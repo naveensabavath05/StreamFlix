@@ -63,8 +63,7 @@ const card=document.createElement("div");
 card.className="card";
 
 card.innerHTML=`
-<img src="logos/logo.png" alt="${channel.name}">
-<h3>${channel.name}</h3>
+<img src="logo.png" alt="${channel.name}">
 `;
 
 card.onclick=()=>play(channel.stream);
